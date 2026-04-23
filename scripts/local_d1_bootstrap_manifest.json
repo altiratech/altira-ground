@@ -1,0 +1,25 @@
+{
+  "seedVersion": "2026-03-21-cluster-analyst-notes-v1",
+  "seedProjects": [
+    {
+      "id": "project-ti-sherman",
+      "name": "TI Sherman Manufacturing Mega-Site",
+      "marketKey": "texas_ercot_corridor",
+      "status": "watching",
+      "jurisdictionName": "Sherman",
+      "sourceRecordCount": 11,
+      "eventCount": 5,
+      "memoCount": 2
+    },
+    {
+      "id": "project-globalwafers-sherman",
+      "name": "GlobalWafers Sherman Silicon Wafer Campus",
+      "marketKey": "texas_ercot_corridor",
+      "status": "sourced",
+      "jurisdictionName": "Sherman",
+      "sourceRecordCount": 8,
+      "eventCount": 2,
+      "memoCount": 1
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+.vite/
+.wrangler/
+.tmp/
+output/
+.dev.vars
+.env
+.env.local
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

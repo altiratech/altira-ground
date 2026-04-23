@@ -1,0 +1,16 @@
+name = "altira-ground-api"
+main = "src/index.ts"
+compatibility_date = "2026-03-20"
+
+[dev]
+port = 8789
+local_protocol = "http"
+
+[vars]
+APP_NAME = "Altira Ground"
+APP_STAGE = "local"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "altira-ground-db"
+database_id = "00000000-0000-0000-0000-000000000001"

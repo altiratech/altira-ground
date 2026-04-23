@@ -1,0 +1,28 @@
+{
+  "name": "altira-ground",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Altira Ground — project-first intelligence for real-asset transitions.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "npm run dev -w @ground/api",
+    "dev:api": "npm run dev -w @ground/api --",
+    "dev:web": "npm run dev -w @ground/web --",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "preview:d1:bootstrap": "bash ./scripts/preview_d1_bootstrap.sh",
+    "reset:d1:bootstrap": "bash ./scripts/reset_d1_bootstrap.sh",
+    "review:browser": "bash ./scripts/review_browser.sh",
+    "verify:d1:write-paths": "bash ./scripts/verify_d1_write_paths.sh",
+    "verify:d1:write-paths:inprocess": "bash ./scripts/verify_d1_write_paths_inprocess.sh",
+    "verify:d1:bootstrap-reset": "bash ./scripts/verify_d1_bootstrap_reset.sh"
+  }
+}
